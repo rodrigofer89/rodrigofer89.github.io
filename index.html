@@ -1,85 +1,731 @@
 
-<!DOCTYPE html><html lang="pt-BR"><head>
-    <meta charset="utf-8">
-    <title>Banco Itaú | Feito com você</title>
-    <base href="/">
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+            <title>FIAP</title>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Inspirado por você, o Itaú muda todo dia. O Itaú é feito com você!">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+        <meta name="description" content="Cursos Presenciais e On-line: Graduação, Pós-Graduação/MBA e Cursos de Curta Duração. FIAP é Tecnologia, Inovação e Empreendedorismo.">
+
+            <meta property="og:url" content="https://www.fiap.com.br/">
+
+            <meta property="og:title" content="FIAP - O Novo é aqui">
+
+            <meta property="og:image" content="https://www.fiap.com.br/wp-content/themes/fiap2016/images/sharing/fiap.png">
+
+            <meta property="og:description" content="A melhor faculdade de tecnologia: uma história que vem sendo construída estimulando mentes a vivenciarem a inovação e o empreendedorismo com o poder transformador da tecnologia.">
+    
+    <link rel="shortcut icon" href="https://www.fiap.com.br/wp-content/themes/fiap2016/images/favicon.ico"/>
+
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-1593570-17', 'auto');
+
+                    ga('send', 'pageview');
+            </script>
+
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-564S72" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-564S72');</script>
+
     <script>
-// akam-sw.js install script version 1.3.6
-"serviceWorker"in navigator&&"find"in[]&&function(){var e=new Promise(function(e){"complete"===document.readyState||!1?e():(window.addEventListener("load",function(){e()}),setTimeout(function(){"complete"!==document.readyState&&e()},1e4))}),n=window.akamServiceWorkerInvoked,r="1.3.6";if(n)aka3pmLog("akam-setup already invoked");else{window.akamServiceWorkerInvoked=!0,window.aka3pmLog=function(){window.akamServiceWorkerDebug&&console.log.apply(console,arguments)};function o(e){(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"sm.sw.s":e,"sm.sw.v":r}])}var i="/akam-sw.js",a=new Map;navigator.serviceWorker.addEventListener("message",function(e){var n,r,o=e.data;if(o.isAka3pm)if(o.command){var i=(n=o.command,(r=a.get(n))&&r.length>0?r.shift():null);i&&i(e.data.response)}else if(o.commandToClient)switch(o.commandToClient){case"enableDebug":window.akamServiceWorkerDebug||(window.akamServiceWorkerDebug=!0,aka3pmLog("Setup script debug enabled via service worker message"),v());break;case"boomerangMQ":o.payload&&(window.BOOMR_mq=window.BOOMR_mq||[]).push(o.payload)}aka3pmLog("akam-sw message: "+JSON.stringify(e.data))});var t=function(e){return new Promise(function(n){var r,o;r=e.command,o=n,a.has(r)||a.set(r,[]),a.get(r).push(o),navigator.serviceWorker.controller&&(e.isAka3pm=!0,navigator.serviceWorker.controller.postMessage(e))})},c=function(e){return t({command:"navTiming",navTiming:e})},s=null,m={},d=function(){var e=i;return s&&(e+="?othersw="+encodeURIComponent(s)),function(e,n){return new Promise(function(r,i){aka3pmLog("Registering service worker with URL: "+e),navigator.serviceWorker.register(e,n).then(function(e){aka3pmLog("ServiceWorker registration successful with scope: ",e.scope),r(e),o(1)}).catch(function(e){aka3pmLog("ServiceWorker registration failed: ",e),o(0),i(e)})})}(e,m)},g=navigator.serviceWorker.__proto__.register;if(navigator.serviceWorker.__proto__.register=function(n,r){return n.includes(i)?g.call(this,n,r):(aka3pmLog("Overriding registration of service worker for: "+n),s=new URL(n,window.location.href),m=r,navigator.serviceWorker.controller?new Promise(function(n,r){var o=navigator.serviceWorker.controller.scriptURL;if(o.includes(i)){var a=encodeURIComponent(s);o.includes(a)?(aka3pmLog("Cancelling registration as we already integrate other SW: "+s),navigator.serviceWorker.getRegistration().then(function(e){n(e)})):e.then(function(){aka3pmLog("Unregistering existing 3pm service worker"),navigator.serviceWorker.getRegistration().then(function(e){e.unregister().then(function(){return d()}).then(function(e){n(e)}).catch(function(e){r(e)})})})}else aka3pmLog("Cancelling registration as we already have akam-sw.js installed"),navigator.serviceWorker.getRegistration().then(function(e){n(e)})}):g.call(this,n,r))},navigator.serviceWorker.controller){var u=navigator.serviceWorker.controller.scriptURL;u.includes("/akam-sw.js")||u.includes("/akam-sw-preprod.js")||u.includes("/threepm-sw.js")||(aka3pmLog("Detected existing service worker. Removing and re-adding inside akam-sw.js"),s=new URL(u,window.location.href),e.then(function(){navigator.serviceWorker.getRegistration().then(function(e){m={scope:e.scope},e.unregister(),d()})}))}else e.then(function(){window.akamServiceWorkerPreprod&&(i="/akam-sw-preprod.js"),d()});if(window.performance){var w=window.performance.timing,l=w.responseEnd-w.responseStart;c(l)}e.then(function(){t({command:"pageLoad"})});var k=!1;function v(){window.akamServiceWorkerDebug&&!k&&(k=!0,aka3pmLog("Initializing debug functions at window scope"),window.aka3pmInjectSwPolicy=function(e){return t({command:"updatePolicy",policy:e})},window.aka3pmDisableInjectedPolicy=function(){return t({command:"disableInjectedPolicy"})},window.aka3pmDeleteInjectedPolicy=function(){return t({command:"deleteInjectedPolicy"})},window.aka3pmGetStateAsync=function(){return t({command:"getState"})},window.aka3pmDumpState=function(){aka3pmGetStateAsync().then(function(e){aka3pmLog(JSON.stringify(e,null,"\t"))})},window.aka3pmInjectTiming=function(e){return c(e)},window.aka3pmUpdatePolicyFromNetwork=function(){return t({command:"pullPolicyFromNetwork"})})}v()}}();</script>
-<script type="text/javascript" src="assets/js/jquery-3.5.0.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.meiomask.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.cookie.js"></script>
-    <script id="importLibJSFrameworkDA" src="https://www.itau.com.br/_arquivosestaticos/Itau/defaultTheme/js/da/framework/importLibJSFrameworkDA.js?KGXCXPV" type="text/javascript"></script>
-    <script id="frameworkDA" src="https://www.itau.com.br/_arquivosestaticos/Itau/defaultTheme/js/da/framework/frameworkDA.js?KGXCXPV" type="text/javascript"></script>
-
-    <script type="text/javascript" src="assets/js/login.js"></script>
-    <script type="text/javascript" src="assets/js/itau-form.js"></script>
-    <script type="text/javascript" src="assets/js/cookie.login.js"></script>
-    <script type="text/javascript" src="assets/js/acessibility-login.js"></script>
-    <script>
-      var urlAnalytics = document.location.href
-        .split('/')
-        .slice(3, document.location.href.split('/').length);
-
-      if (urlAnalytics[0] == '') {
-        urlAnalytics = 'Home';
-      } else {
-        urlAnalytics = urlAnalytics
-          .filter((item, index) => {
-            return index < 2 && item != '';
-          })
-          .map((item) => {
-            return item
-              .split('-')
-              .map(
-                (innerItem) =>
-                  innerItem.charAt(0).toUpperCase() + innerItem.slice(1)
-              )
-              .join('');
-          })
-          .join(':');
-      }
-
-      urlAnalytics = urlAnalytics.split('?')[0].split('#')[0];
-
-      window.analyticsData = {
-        site: {
-          nome: 'IT',
-          ambiente: 'NL',
-          negocio: 'PF',
-          tipoDeCanal: 'Web',
-          versaoAmbiente: 'Angular'
-        },
-        page: {
-          secao: 'Home',
-          url: document.location.href,
-          nome: 'IT:NL:IN:' + urlAnalytics
-        },
-        rule: 'pageLoad'
-      };
+        var _gaq = _gaq || {
+            push : function(arr) {
+                ga('send', 'event', arr[1], arr[2], arr[3]);
+            }
+        };
     </script>
-  <style>@charset "UTF-8";body,html{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline;box-sizing:border-box;}body{line-height:1;-webkit-font-smoothing:antialiased;overflow-x:hidden;padding-top:80px;transition:.2s ease-in;}:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#007bff;--secondary:#6c757d;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1280px;--breakpoint-xxl:1900px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;}*,:after,:before{box-sizing:border-box;}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0);}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff;}@media print{*,:after,:before{text-shadow:none!important;box-shadow:none!important;}@page {size:a3;}body{min-width:992px!important;}}</style><link rel="stylesheet" href="styles.f5532dfa36e6f7c707a4.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.f5532dfa36e6f7c707a4.css"></noscript>
-<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"true","rua.cpush":"false","rua.upre":"true","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"SJ-b7f20cf6-3b5f-4f83-a7e5-0b4e2fcf7c71","rua.cook":"true","rua.ims":"false","rua.ufprl":"true","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch"}]);</script>
-                              <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="7Z28Y-PBMV2-FAMJ9-MJLW3-HPSMD",function(){function e(){if(!r){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.appendChild(e),r=!0}}function t(e){r=!0;var n,t,a,i,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",i=(a.frameElement||a).style,i.width=0,i.height=0,i.border=0,i.display="none",o.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void 0;",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=14,window.BOOMR.url=n+"7Z28Y-PBMV2-FAMJ9-MJLW3-HPSMD";var i=document.currentScript||document.getElementsByTagName("script")[0],o=i.parentNode,r=!1,d=document.createElement("link");if(d.relList&&"function"==typeof d.relList.supports&&d.relList.supports("preload")&&"as"in d)window.BOOMR.snippetMethod="p",d.href=window.BOOMR.url,d.rel="preload",d.as="script",d.addEventListener("load",e),d.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!r)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.appendChild(d);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n="true"=="true"?1:0,t="cookiepresent",a="xnwsratiplttqyt4hd5q-f-26a0ba1fd-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"32","ak.cp":"1308177","ak.ai":parseInt("537521",10),"ak.ol":"0","ak.cr":252,"ak.ipv":4,"ak.proto":"h2","ak.rid":"1d19acd5","ak.r":40008,"ak.a2":n,"ak.m":"a","ak.n":"essl","ak.bpcip":"187.109.40.0","ak.cport":63374,"ak.gh":"104.71.217.39","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.csrc":"-","ak.acc":"","ak.t":"1652308219","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==Vd7Danjjq7B3uKAmVcaeznlYGoCqIL1zzTfnZX0WpzG1b5gXv43Bqnn/PX3HAYKhWgw9gfKfaSlxJ2iTnjT795Zx78dCEOrLLfz3c3CGl9nL4FS2vnln+tAKE1AlS5w/4e450ieIdg5CoYlgmwicpS4ZaOQEymCsS58Sv/oBUEFvUnwvONWoLrXMCSyOFe26MnZsgARwhTqCL8C6WjYd7N9vFLYEPU3iXr3fJdOXUvTP7/l7bz9N0gcaMO31MBQN3i5jI5lAq2GPBal1Rl7K9RKLw1JatXUqbmst7CjicREZ5xRmFPnqjAgt4IZ5azX5hWeRz9+7Qb58jJV4n213S721SBe9gITSMpws/mwP8gBgxJr+2dNyFZt1KEkJzYHO4jXwFqiaBELvhS+lG8DRCf4z+Ontu7ioml6Kg2KMu9Y=","ak.pv":"572","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
-  <body>
-    <noscript>Seu navegador não possui suporte ao JavaScript!!</noscript>
-    <app-root></app-root>
-    <script charset="UTF-8" type="text/javascript">
-      window['adrum-start-time'] = new Date().getTime();
-      (function (config) {
-        config.appKey = 'GR-AAB-AVE';
-        config.adrumExtUrlHttp = 'http://cdn.appdynamics.com';
-        config.adrumExtUrlHttps = 'https://cdn.appdynamics.com';
-        config.beaconUrlHttp = 'http://gru-col.eum-appdynamics.com';
-        config.beaconUrlHttps = 'https://gru-col.eum-appdynamics.com';
-        config.resTiming = { bufSize: 200, clearResTimingOnBeaconSend: true };
-        config.maxUrlLength = 512;
-      })(window['adrum-config'] || (window['adrum-config'] = {}));
-    </script>
-    <script src="//cdn.appdynamics.com/adrum/adrum-21.2.0.3385.js"></script>
-  <script src="runtime-es2015.ff49cef3311f9636ddc5.js" type="module"></script><script src="runtime-es5.ff49cef3311f9636ddc5.js" nomodule defer></script><script src="polyfills-es5.9a499d1403f605446fbd.js" nomodule defer></script><script src="polyfills-es2015.7e3f4da00a51d9bee8c6.js" type="module"></script><script src="main-es2015.597d62e305da2e542cea.js" type="module"></script><script src="main-es5.597d62e305da2e542cea.js" nomodule defer></script>
 
-</body></html>
+    
+    
+    
+
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='google-lora-css'  href='https://fonts.googleapis.com/css?family=Lora%3A400%2C700%2C700italic%2C400italic&#038;ver=4.9.15' type='text/css' media='all' />
+<link rel='stylesheet' id='google-roboto-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A400%2C100%2C100italic%2C300%2C300italic%2C400italic%2C500%2C500italic%2C700%2C700italic%2C900%2C900italic&#038;ver=4.9.15' type='text/css' media='all' />
+<link rel='stylesheet' id='fiap-css'  href='https://www.fiap.com.br/wp-content/themes/fiap2016/styles/fiap.css?ver=e9ad036de37427d73ec33774209f6788' type='text/css' media='all' />
+
+</head>
+<body>
+    <div class="fiap-loader">
+        <div class="fiap-loader-box">
+            <img src="https://www.fiap.com.br/wp-content/themes/fiap2016/images/loader.gif" class="fiap-loader-image">
+
+            <div class="fiap-loader-text">
+                0%
+            </div>
+
+            <svg class="fiap-loader-svg" viewBox="0 0 268 268">
+                <path class="fiap-loader-path" fill="none" stroke-width="2" d="M267,134c0,73.5-59.5,133-133,133S1,207.5,1,134 S60.5,1,134,1S267,60.5,267,134z"/>
+            </svg>
+        </div>
+    </div>
+
+<nav id="menu" class="menu menu-home ">
+
+    
+    <div class="components-menu ">
+        <div class="components-menu-logo">
+            <a href="https://www.fiap.com.br" class="components-menu-logo-link">
+                <svg class="components-menu-svg" viewBox="0 0 574.206 155.976">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo-fiap"></use>
+                </svg>
+            </a>
+        </div>
+
+        <div class="components-menu-center">
+            <ul class="components-menu-list">
+                                <li class="components-menu-item">
+                    <a href="https://www.fiap.com.br/graduacao/" class="components-menu-link menu-main-link">
+                        Graduação
+                    </a>
+
+                    <ul class="components-menu-sublist">
+                        <li class="components-menu-subitem">
+                            <a href="https://www.fiap.com.br/graduacao/" class="components-menu-link">
+                                Graduação Presencial
+                            </a>
+                        </li>
+                        <li class="components-menu-subitem">
+                            <a href="https://www.fiap.com.br/online/graduacao/" class="components-menu-link">
+                                Graduação Online
+                            </a>
+                        </li>                        
+                    </ul>
+                </li>                
+                <li class="components-menu-item">
+                    <a href="https://www.fiap.com.br/mba/" class="components-menu-link menu-main-link">
+                        MBA<span class="text-lower">s</span>
+                    </a>
+
+                    <ul class="components-menu-sublist">
+                        <li class="components-menu-subitem">
+                            <a href="https://www.fiap.com.br/mba/" class="components-menu-link">
+                                MBA<span class="text-lower">s</span>&nbsp;Presenciais
+                            </a>
+                        </li>
+                        <li class="components-menu-subitem">
+                            <a href="https://www.fiap.com.br/online/mba/" class="components-menu-link">
+                                 MBA<span class="text-lower">s</span>&nbsp;Online
+                            </a>
+                        </li>
+                        <li class="components-menu-subitem">
+                            <a href="https://www.fiap.com.br/live/mba" class="components-menu-link">
+                                 MBA<span class="text-lower">s</span>&nbsp;Live
+                            </a>
+                        </li>                         
+                    </ul>
+                </li>                
+                <li class="components-menu-item">
+                    <a href="https://www.fiap.com.br/shift/" class="components-menu-link menu-main-link">
+                        IMERSÕES E CURSOS DE CURTA DURAÇÃO
+                    </a>
+                </li>
+                <li class="components-menu-item">
+                    <a href="https://www.fiap.com.br/corporate/" class="components-menu-link menu-main-link">
+                        Corporate
+                    </a>
+                </li>
+                <li class="components-menu-item">
+                    <a href="https://www.fiap.com.br/institucional/" class="components-menu-link menu-main-link" onclick="ga('send', 'event', 'Institucional', 'Clique Item Menu', 'Institucional');">
+                        FIAP
+                    </a>
+
+                    <ul class="components-menu-sublist">
+                        <li class="components-menu-subitem">
+                            <a href="https://www.fiap.com.br/institucional/#conceito" class="components-menu-link " onclick="ga('send', 'event', 'Institucional', 'Clique Item Menu', 'A FIAP');">
+                                A FIAP
+                            </a>
+                        </li>
+                        <li class="components-menu-subitem">
+                            <a href="https://www.fiap.com.br/iniciativas/" class="components-menu-link" onclick="ga('send', 'event', 'Institucional', 'Clique Item Menu', 'Iniciativas');">
+                                Iniciativas
+                            </a>
+                        </li>
+
+                        <li class="components-menu-subitem">
+                            <a href="https://www.fiap.com.br/institucional/#business-partners" class="components-menu-link " onclick="ga('send', 'event', 'Institucional', 'Clique Item Menu', 'Parcerias Estratégicas');">
+                                Parcerias Estratégicas
+                            </a>
+                        </li>
+                        <li class="components-menu-subitem">
+                            <a href="https://www.fiap.com.br/institucional/#sxsw-2018" class="components-menu-link " onclick="_gaq.push(['_trackEvent','Graduação','Item-Menu-Principal','Fotos']);">
+                                FIAP at SXSW
+                            </a>
+                        </li>
+                        <li class="components-menu-subitem">
+                            <a href="https://www.fiap.com.br/institucional/#nomad" class="components-menu-link " onclick="_gaq.push(['_trackEvent','Graduação','Item-Menu-Principal','The Nomad Project']);">
+                                The Nomad Project
+                            </a>
+                        </li>
+                        <li class="components-menu-subitem">
+                            <a href="https://www.fiap.com.br/institucional/#fotos" class="components-menu-link " onclick="ga('send', 'event', 'Institucional', 'Clique Item Menu', 'Fotos');">
+                                Fotos
+                            </a>
+                        </li>
+                        <li class="components-menu-subitem">
+                            <a href="https://www.fiap.com.br/institucional/#videos" class="components-menu-link " onclick="ga('send', 'event', 'Institucional', 'Clique Item Menu', 'Vídeos');">
+                                Vídeos
+                            </a>
+                        </li>
+                        <li class="components-menu-subitem">
+                            <a href="https://www.fiap.com.br/institucional/#premios-e-reconhecimentos" class="components-menu-link " onclick="ga('send', 'event', 'Institucional', 'Clique Item Menu', 'Prêmios e Reconhecimentos');">
+                                Prêmios e Reconhecimentos
+                            </a>
+                        </li>
+                        <li class="components-menu-subitem">
+                            <a href="https://www.fiap.com.br/institucional/#unidades" class="components-menu-link " onclick="ga('send', 'event', 'Institucional', 'Clique Item Menu', 'Unidades');">
+                                Unidades
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="components-menu-search">
+                                    <div class="search-form-content">
+    <form action="https://www.fiap.com.br" method="get" class="search-form">
+        <input type="text" name="s" placeholder="Encontre aqui" class="search-form-input" value=""/>
+        <input type="submit" value="" class="search-form-button"/>
+
+            </form>
+</div>                            </div>
+        </div>
+        <div class="components-menu-right">
+                            <div class="components-menu-search-button-parent">
+                    <div class="components-menu-search-button-content js-open-searchbar">
+                        <a class="components-menu-search-button"></a>
+                    </div>
+                </div>
+                        <div class="components-menu-button">
+                <a href="https://www2.fiap.com.br/" rel="noopener" target="_blank" class="menu-right-login">
+                    Login
+                </a>
+            </div>
+        </div>
+
+        <a href="#" class="components-menu-toggle">
+            <span class="components-menu-toggle-icon">Abrir/Fechar Menu</span>
+        </a>
+    </div>
+
+            
+     
+    <section class="search-quick-links">
+    <div class="wrapper">
+        <div class="components-menu-search-mobile">
+                            <div class="search-form-content">
+    <form action="https://www.fiap.com.br" method="get" class="search-form">
+        <input type="text" name="s" placeholder="Encontre aqui" class="search-form-input" value=""/>
+        <input type="submit" value="" class="search-form-button"/>
+
+            </form>
+</div>                    </div>
+
+        <div class="search-quick-links-title">QUICK LINKS</div>
+        <div class="search-quick-links-columns">
+            <div class="search-quick-links-column">
+                <ul class="search-quick-links-list">
+                    <li class="search-quick-links-item">
+                        <a href="https://www.fiap.com.br/ihelp/" class="search-quick-links-item-link">
+                            ihelp
+                        </a>
+                    </li>
+                    <li class="search-quick-links-item">
+                        <a href="https://www.fiap.com.br/colegio/" class="search-quick-links-item-link">
+                            fiap school
+                        </a>
+                    </li>
+                    <li class="search-quick-links-item">
+                        <a href="https://www.fiap.com.br/coworking/" class="search-quick-links-item-link">
+                            coworking spaces
+                        </a>
+                    </li>
+                    <li class="search-quick-links-item">
+                        <a href="https://www.fiap.com.br/talent-lab/" class="search-quick-links-item-link">
+                            talent lab
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="search-quick-links-column">
+                <ul class="search-quick-links-list">
+                    <li class="search-quick-links-item">
+                        <a href="https://www.fiap.com.br/ihelp/" class="search-quick-links-item-link">
+                            responsabilidade social
+                        </a>
+                    </li>
+                    <li class="search-quick-links-item">
+                        <a href="https://www.fiap.com.br/transporte/" class="search-quick-links-item-link">
+                            transporte
+                        </a>
+                    </li>
+                    <li class="search-quick-links-item">
+                        <a href="https://www.fiap.com.br/imprensa/" class="search-quick-links-item-link">
+                            imprensa
+                        </a>
+                    </li>
+                    <li class="search-quick-links-item">
+                        <a href="https://www.fiap.com.br/acontece/noticias/" class="search-quick-links-item-link">
+                            noticias
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="search-quick-links-column">
+                <ul class="search-quick-links-list">
+                    <li class="search-quick-links-item">
+                        <a href="https://www.fiap.com.br/empresa-junior/" class="search-quick-links-item-link">
+                            empresa junior
+                        </a>
+                    </li>
+
+                    <li class="search-quick-links-item">
+                        <a href="https://www.fiap.com.br/cpa/" class="search-quick-links-item-link">
+                            Comissão Própria de Avaliação
+                        </a>
+                    </li>
+                    <li class="search-quick-links-item">
+                        <a href="https://www.fiap.com.br/fale-conosco/" class="search-quick-links-item-link">
+                            fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+    <div class="components-menu-blur"></div>
+</nav>
+
+
+<div class="background-gradient">
+        <div id="vitrine" class="vitrine">
+    <div class="vitrine-list">
+        
+                    
+              
+                    
+            <a href="https://www.fiap.com.br/graduacao/" class="vitrine-item vitrine-vestibular-online vitrine-vestibular-final js-lazyload">
+  <div class="vitrine-effects">
+    <div class="vitrine-wrapper">
+      <div class="vitrine-media">
+        <div class="vitrine-media-wrapper">
+          <img src="https://www.fiap.com.br/wp-content/themes/fiap2016/images/fiap/vitrines/graduacao/lets-rock-the-future.png"
+              class="vitrine-media-img">
+        </div>
+      </div>
+
+      <div class="vitrine-content">
+        <div class="vitrine-content-wrapper">
+          <div class="vitrine-title">
+            vestibular            
+          </div>          
+
+          <div class="vitrine-subtitle">
+            <span class="text-bold text-magenta">AGOSTO</span>•2022
+          </div>
+
+          <div>
+            <p class="vitrine-online-description">
+              <span class="text-bold">9 graduações</span>
+              <br>
+              nas áreas de tecnologia,
+              <br>
+              inovação e negócios.
+            </p>
+            <p class="vitrine-online-highlight">
+              avaliação digital para turmas de agosto.
+            </p>
+          </div>
+          <div>
+                    <span class="vitrine-btn">
+                        Inscreva-se
+
+                        <span class="vitrine-btn-top"></span>
+                        <span class="vitrine-btn-right"></span>
+                        <span class="vitrine-btn-bottom"></span>
+                        <span class="vitrine-btn-left"></span>
+
+                        <span class="vitrine-btn-bg"></span>
+                    </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+                    
+            <a href="https://www.fiap.com.br/mba/" class="vitrine-item vitrine-mba js-lazyload">
+    <div class="vitrine-effects">
+        <div class="vitrine-wrapper">
+            <div class="vitrine-content">
+                <div class="vitrine-content-wrapper">
+                    <div class="vitrine-title">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137.1 35.8"
+                             class="vitrine-title-svg js-vitrine-svg-stroke">
+                            <g>
+                                <path fill="none" stroke="#91a3ad" stroke-width="0.5" d="M33.9,0.8v34h-5.2V10.2V8.5l-0.9,1.4l-10.7,16L6.5,10L5.6,8.6v1.6v24.5H0.5v-34h5.8l10.5,16.3l0.4,0.7
+				l0.4-0.7L28.1,0.8H33.9 M34.4,0.2h-6.6L17.2,16.8L6.6,0.2H0v35h6.1v-25l11,16.4h0.2l11.1-16.5v25.1h6.2V0.2L34.4,0.2z"/>
+                            </g>
+                            <g>
+                                <path fill="none" stroke="#91a3ad" stroke-width="0.5" d="M59.1,0.8c6.8,0,11,3.2,11,8.5c0,3.4-1.5,5.7-4.7,7.4l-1,0.5l1.1,0.4c4.6,1.6,6.6,4.1,6.6,8.1
+				c0,5.7-4.7,9.2-12.5,9.2H43.9v-34H59.1 M49,15.5h0.5h8.4c4.5,0,7.1-1.9,7.1-5.3c0-3.2-2.4-5-6.7-5h-8.9H49v0.5V15V15.5 M49,30.3
+				h0.5h10.2c4.6,0,7.2-2,7.2-5.4c0-2-1-5.2-7.7-5.2h-9.8H49v0.5v9.6V30.3 M59.1,0.2H43.4v35h16.2c7.8,0,13-3.4,13-9.7
+				c0-4.8-2.8-7.2-7-8.6c2.6-1.4,5-3.6,5-7.9C70.6,3.7,66.2,0.2,59.1,0.2L59.1,0.2z M49.5,15V5.7h8.9c4,0,6.2,1.6,6.2,4.5
+				c0,3.3-2.7,4.8-6.6,4.8H49.5L49.5,15z M49.5,29.8v-9.6h9.8c4.9,0,7.2,1.8,7.2,4.8c0,3.2-2.5,4.9-6.7,4.9H49.5L49.5,29.8z"/>
+                            </g>
+                            <g>
+                                <path fill="none" stroke="#91a3ad" stroke-width="0.5" d="M97.3,0.5l15,34.3h-5.4l-3.4-8.1l-0.1-0.3H103H86.4h-0.3l-0.1,0.3l-3.5,8.1h-5.2l15-34.3H97.3 M87.9,21.9
+				h0.8h12.1h0.8l-0.3-0.7l-6-14l-0.5-1.1l-0.5,1.1l-6,14L87.9,21.9 M97.6,0h-5.7L76.5,35.3h6.3l3.6-8.5H103l3.5,8.5h6.5L97.6,0
+				L97.6,0z M88.6,21.4l6-14l6,14H88.6L88.6,21.4z"/>
+                            </g>
+                            <g>
+                                <path fill="none" stroke="#91a3ad" stroke-width="0.5" d="M126.8,8.9c3,0,6.3,1,9,2.7L134,15c-2.6-1.5-5.1-2.3-7.3-2.3c-2.6,0-4.2,1.2-4.2,3.1V16c0,2.2,2.7,3,5.8,4
+				l0.5,0.2c3.8,1.2,7.8,2.8,7.8,7.2v0.1c0,5.8-4.8,7.8-9.3,7.8c-3.7,0-7.5-1.3-10.5-3.6l2.2-3.3c2.8,2,5.8,3,8.5,3
+				c2.8,0,4.6-1.3,4.6-3.4V28c0-2.3-2.6-3.1-5.6-4l-0.6-0.2c-4-1.1-7.9-2.6-7.9-7.3v-0.1C117.9,12,121.6,8.9,126.8,8.9 M126.8,8.4
+				c-5.2,0-9.4,3.1-9.4,8.1v0.1c0,5.1,4.4,6.7,8.2,7.8c3.1,1,5.9,1.6,5.9,3.7v0.1c0,1.8-1.5,2.9-4.1,2.9c-2.7,0-5.8-1.1-8.7-3.3
+				l-2.7,4.1c3.3,2.6,7.5,4,11.2,4c5.5,0,9.8-2.8,9.8-8.3v-0.1c0-4.8-4.4-6.5-8.2-7.7c-3.1-1-6-1.8-6-3.7v-0.1
+				c0-1.5,1.3-2.6,3.7-2.6c2.2,0,4.9,1,7.5,2.5l2.4-4.3C133.7,9.6,130.1,8.4,126.8,8.4L126.8,8.4z"/>
+                            </g>
+                        </svg>
+
+                        <div class="vitrine-title-fill js-vitrine-svg-fill">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137.1 35.8" class="vitrine-title-svg">
+                                <g>
+                                    <path fill="#A6BAC6"
+                                          d="M17.2,26.7H17l-11-16.4v25H0v-35h6.6l10.7,16.6L27.9,0.2h6.6v35h-6.2V10.2L17.2,26.7z"/>
+                                    <path fill="#A6BAC6" d="M70.6,9.2c0,4.3-2.4,6.5-5,7.9c4.1,1.4,7,3.8,7,8.6c0,6.3-5.1,9.7-13,9.7H43.4v-35h15.7
+		C66.2,0.2,70.6,3.7,70.6,9.2z M64.5,10.2c0-2.9-2.2-4.5-6.2-4.5h-8.9V15h8.4C61.8,15,64.5,13.5,64.5,10.2z M66.4,25
+		c0-3-2.4-4.8-7.2-4.8h-9.8v9.6h10.2C63.9,29.8,66.4,28.2,66.4,25z"/>
+                                    <path fill="#A6BAC6"
+                                          d="M113,35.3h-6.5l-3.5-8.5H86.4l-3.6,8.5h-6.3L91.9,0h5.7L113,35.3z M94.6,7.4l-6,14h12.1L94.6,7.4z"/>
+                                    <path fill="#A6BAC6" d="M127.3,35.8c-3.8,0-7.9-1.3-11.2-4l2.7-4.1c2.8,2.2,6,3.2,8.7,3.2c2.6,0,4.1-1.1,4.1-2.8V28
+		c0-2.1-2.8-2.8-5.9-3.7c-3.9-1.1-8.2-2.7-8.2-7.8v-0.1c0-5,4.2-8.1,9.4-8.1c3.3,0,6.9,1.1,9.7,3l-2.4,4.3c-2.6-1.5-5.2-2.5-7.5-2.5
+		c-2.4,0-3.7,1.1-3.7,2.6V16c0,1.9,2.8,2.7,6,3.7c3.8,1.2,8.2,3,8.2,7.7v0.1C137.1,33,132.9,35.8,127.3,35.8z"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <span class="vitrine-desc js-vitrine-text-terminal">
+                        PRESENCIAIS, ONLINE E REMOTOS.
+                    </span>
+                    </div>
+
+                    <div class="vitrine-text">
+                        <ul class="vitrine-list">
+                            <li class="vitrine-list-item">
+                                <span class="vitrine-list-square js-vitrine-zoom"></span>
+
+                                <span class="vitrine-list-title js-vitrine-text-y">
+                                Aqui você cria sua startup
+                            </span>
+                            </li>
+                            <li class="vitrine-list-item">
+                                <span class="vitrine-list-square js-vitrine-zoom"></span>
+
+                                <span class="vitrine-list-title js-vitrine-text-y">
+                                Extensões Internacionais
+                            </span>
+
+                                <span class="vitrine-list-desc js-vitrine-text-y">
+                                    babson college,
+                                </span>
+
+                                <span class="vitrine-list-desc js-vitrine-text-y">
+                                nova school of business & economics
+                            </span>
+                            </li>
+                        </ul>
+
+                        <span class="vitrine-btn">
+                        SAIBA MAIS
+
+                        <span class="vitrine-btn-top"></span>
+                        <span class="vitrine-btn-right"></span>
+                        <span class="vitrine-btn-bottom"></span>
+                        <span class="vitrine-btn-left"></span>
+
+                        <span class="vitrine-btn-sombra"></span>
+                        <span class="vitrine-btn-bg"></span>
+                    </span>
+
+                    
+
+                                                
+                    </div>
+                    <span class="vitrine-span-ultimas-vagas js-vitrine-text-y">VAGAS LIMITADAS</span>
+                </div>
+            </div>
+
+            <div class="vitrine-media">
+                <div class="vitrine-media-wrapper">
+                    <img src="https://www.fiap.com.br/wp-content/themes/fiap2016/images/fiap/vitrines/mba/logo.png" class="vitrine-media-img">
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
+                    
+            <a href="https://www.fiap.com.br/online/mba" class="vitrine-item vitrine-on js-lazyload">
+    <div class="vitrine-effects vitrine-effects-mba">
+        <div class="vitrine-wrapper">
+            <div class="vitrine-content-mba">
+                <div class="vitrine-content-wrapper">
+                    <div class="vitrine-title-mba">
+                        <div class="vitrine-title-container-flex">
+                            <svg class="vitrine-title-svg vitrine-title-svg-mba js-vitrine-svg-stroke" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 143 47"><path stroke="#91A3AD" fill="none" d="M131.783 46.557l-4.173-10.349h-19.303l-4.174 10.349H93.895L113.459.083h9.259l19.564 46.474h-10.499zm-13.825-34.279l-6.064 14.964h12.129l-6.065-14.964zM75.701 46.557H53.986V.412H75.18c9.325 0 15.063 4.681 15.063 11.932v.132c0 5.208-2.739 8.108-5.999 9.954 5.282 2.044 8.542 5.142 8.542 11.338v.132c0 8.438-6.781 12.657-17.085 12.657zm4.565-32.499c0-3.032-2.348-4.746-6.586-4.746h-9.912v9.756h9.259c4.435 0 7.239-1.45 7.239-4.878v-.132zm2.543 18.458c0-3.098-2.282-5.01-7.434-5.01H63.768v10.152h11.933c4.434 0 7.108-1.582 7.108-5.01v-.132zM36.313 16.431L23.466 36.142h-.261L10.489 16.629v29.928H.642V.412h10.825l11.999 19.513L35.465.412H46.29v46.145h-9.977V16.431z"/></svg>
+                            <svg class="vitrine-title-svg vitrine-title-svg-mba js-vitrine-svg-stroke" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 152 47"><path stroke="#ED145B" fill="none" d="M144.723 46.557V.083h6.643v46.474h-6.643zm-31.265-29.731l22.4 29.731h-22.4V16.826zM134.61.083v28.58L113.091.083h21.519zM97.354 23.218v-.13c0-10.9-6.91-20.093-17.289-23.005h23.281v46.474H79.203c10.819-2.708 18.151-12.18 18.151-23.339zm-10.608.139c0 7.987-5.662 14.518-13.839 14.518-8.167 0-13.966-6.661-13.966-14.657v-.13c0-7.996 5.671-14.527 13.838-14.527 8.167 0 13.967 6.67 13.967 14.657v.139zm-38.413 0c0 11.15 7.222 20.51 17.995 23.2H20.282L.718.083h65.05C55.344 3.023 48.333 12.3 48.333 23.218v.139z"/></svg>
+                        </div>
+                        
+                        <div class="vitrine-title-fill js-vitrine-svg-fill">
+                            <div class="vitrine-title-container-flex">
+                                <svg class="vitrine-title-svg vitrine-title-svg-mba" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 143 47"><path fill="#91A3AD" d="M131.783 46.557l-4.173-10.349h-19.303l-4.174 10.349H93.895L113.459.083h9.259l19.564 46.474h-10.499zm-13.825-34.279l-6.064 14.964h12.129l-6.065-14.964zM75.701 46.557H53.986V.412H75.18c9.325 0 15.063 4.681 15.063 11.932v.132c0 5.208-2.739 8.108-5.999 9.954 5.282 2.044 8.542 5.142 8.542 11.338v.132c0 8.438-6.781 12.657-17.085 12.657zm4.565-32.499c0-3.032-2.348-4.746-6.586-4.746h-9.912v9.756h9.259c4.435 0 7.239-1.45 7.239-4.878v-.132zm2.543 18.458c0-3.098-2.282-5.01-7.434-5.01H63.768v10.152h11.933c4.434 0 7.108-1.582 7.108-5.01v-.132zM36.313 16.431L23.466 36.142h-.261L10.489 16.629v29.928H.642V.412h10.825l11.999 19.513L35.465.412H46.29v46.145h-9.977V16.431z"/></svg>
+                                <svg class="vitrine-title-svg vitrine-title-svg-mba" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 152 47"><path fill="#ED145B" d="M144.723 46.557V.083h6.643v46.474h-6.643zm-31.265-29.731l22.4 29.731h-22.4V16.826zM134.61.083v28.58L113.091.083h21.519zM97.354 23.218v-.13c0-10.9-6.91-20.093-17.289-23.005h23.281v46.474H79.203c10.819-2.708 18.151-12.18 18.151-23.339zm-10.608.139c0 7.987-5.662 14.518-13.839 14.518-8.167 0-13.966-6.661-13.966-14.657v-.13c0-7.996 5.671-14.527 13.838-14.527 8.167 0 13.967 6.67 13.967 14.657v.139zm-38.413 0c0 11.15 7.222 20.51 17.995 23.2H20.282L.718.083h65.05C55.344 3.023 48.333 12.3 48.333 23.218v.139z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vitrine-text">
+                        <span class="vitrine-text-desc-large js-vitrine-text-y">
+                            Conecte-se às tecnologias
+                        </span>
+                        <span class="vitrine-text-desc-large js-vitrine-text-y">
+                            exponenciais e à evolução
+                        </span>
+                        <span class="vitrine-text-desc-large js-vitrine-text-y">
+                            digital para redesenhar
+                        </span>
+                        <span class="vitrine-text-desc-large margin-bottom js-vitrine-text-y">
+                            o seu amanhã.
+                        </span>
+
+                        <span class="vitrine-text-desc-small js-vitrine-text-y">
+                            MBAs online em tecnologia,
+                        </span>
+
+                        <span class="vitrine-text-desc-small js-vitrine-text-y">
+                            inovação e negócios.
+                        </span>
+
+                        <span class="vitrine-btn vitrine-btn-on-mba">
+                            Saiba Mais
+
+                            <span class="vitrine-btn-top"></span>
+                            <span class="vitrine-btn-right"></span>
+                            <span class="vitrine-btn-bottom"></span>
+                            <span class="vitrine-btn-left"></span>
+
+                            <span class="vitrine-btn-sombra"></span>
+                            <span class="vitrine-btn-bg"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vitrine-media-mba">
+                <div class="vitrine-media-wrapper">
+                    <img src="https://www.fiap.com.br/wp-content/themes/fiap2016/images/online/vitrine/on1.png" class="vitrine-media-img">
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
+                    
+            <a href="https://www.fiap.com.br/mba/mba-em-data-science/" class="vitrine-item vitrine-mba-cursos vitrine-mba-data-science js-lazyload">
+    <div class="vitrine-effects">
+        <div class="vitrine-content">
+            <div class="vitrine-curso-title js-vitrine-text-y">NOVO MBA</div>
+                        <div class="vitrine-curso-nome js-vitrine-text-y">data science</div>            
+
+            <div class="vitrine-subtitle vitrine-subtitle-linha js-vitrine-text-terminal">
+                A Ciência de Dados como o maior diferencial para os negócios do amanhã
+            </div>            
+
+            <span class="vitrine-btn">
+                Saiba mais
+
+                <span class="vitrine-btn-top"></span>
+                <span class="vitrine-btn-right"></span>
+                <span class="vitrine-btn-bottom"></span>
+                <span class="vitrine-btn-left"></span>
+
+                <span class="vitrine-btn-bg"></span>
+            </span>
+
+                    </div>
+    </div>
+</a>
+                    
+            <a href="https://www.fiap.com.br/online/graduacao/bacharelado/engenharia-de-software/" class="vitrine-item vitrine-novos-cursos js-lazyload">
+  <div class="vitrine-effects">
+    <div class="vitrine-wrapper">
+      <div class="vitrine-content">
+        <div class="vitrine-content-wrapper novo-curso-egs">
+          <div class="vitrine-novos-cursos__subtitle">
+            nova graduação
+          </div>         
+
+          <div class="vitrine-title">
+            <div class="vitrine-title__nome js-vitrine-text-y">
+              ENGENHARIA DE SOFTWARE
+            </div>
+          </div>  
+
+          <div class="vitrine-egs">       
+            <div class="vitrine-title__sub js-vitrine-text-y">
+              FULL STACK & DEVSECOPS
+            </div>
+          </div>          
+
+          <div class="vitrine-subtitle js-vitrine-text-terminal">
+            SEJA O NOVO ENGENHEIRO DO MUNDO DIGITAL
+          </div>
+
+          <div>
+            <span class="vitrine-btn">
+              Saiba Mais
+
+              <span class="vitrine-btn-top"></span>
+              <span class="vitrine-btn-right"></span>
+              <span class="vitrine-btn-bottom"></span>
+              <span class="vitrine-btn-left"></span>
+
+              <span class="vitrine-btn-bg"></span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>                    
+            <a href="https://www.fiap.com.br/shift/" class="vitrine-item vitrine-shift js-lazyload">
+    <div class="vitrine-effects">
+        <div class="vitrine-content">
+            <div class="vitrine-content-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 383.5 95.2" class="vitrine-logo js-vitrine-zoom">
+                    <path fill="#91A3AD"
+                          d="M43.2 46c-12.8-2.6-15.3-5.9-15.3-10.6v-.1c0-5 5.1-10.1 13.6-10.1 5.5 0 10.8 1.8 15.4 5.2l.5.4 1.7-2.2-.5-.4c-4.9-3.6-10.8-5.6-17-5.6-9.3 0-16.5 5.6-16.5 12.7v.1c0 6.9 4.8 10.6 17.1 13.1 13 2.6 15.5 5.8 15.5 10.8v.1c0 6.2-5.9 10.6-14.4 10.6-6.8 0-13-2.5-17.9-7.2l-.4-.4-2 1.9.5.4c5.5 5.1 12.3 7.8 19.7 7.8 10.2 0 17.2-5.4 17.2-13.3v-.1c.1-6.9-4.7-10.6-17.2-13.1M113.1 22.6h2.7v50h-2.7zM102.1 22.6h2.7v50h-2.7zM68.4 22.6h-2.7v50h2.7V48.7h25.5v-2.6H68.4zM124.1 22.6v50.1h2.7V25.2h45.8v47.4h2.7V25.2H193v-2.6z"/>
+                    <path fill="#91A3AD" d="M135 46.7h21v2.6h-21z"/>
+                    <path fill="#ed145b"
+                          d="M296.7 44v2.5h5.8V49h-5.8v4.7H294V41.5h9.3V44zM313.9 53.7V41.5h2.7v12.2h-2.7zM337.3 53.7l-1.1-2.7H331l-1.1 2.7h-2.7l5.2-12.2h2.4l5.2 12.2h-2.7zm-3.6-9l-1.6 3.9h3.2l-1.6-3.9zM355.5 50.1h-2v3.6h-2.7V41.5h5c2.9 0 4.7 1.7 4.7 4.2v.1c-.1 2.8-2.3 4.3-5 4.3m2.2-4.3c0-1.2-.8-1.9-2.2-1.9h-2.1v3.7h2.1c1.4.1 2.2-.8 2.2-1.8M214.8 41.5h68.6v12.2h-68.6z"/>
+                </svg>
+
+                <div class="vitrine-subtitle js-vitrine-text-terminal">
+                    CURSOS REMOTOS DE CURTA DURAÇÃO 
+                </div>
+                <div class="vitrine-subtitle js-vitrine-text-terminal">
+                    NAS ÁREAS DE TECNOLOGIA, INOVAÇÃO E NEGÓCIOS.
+                </div>
+
+                <div class="vitrine-btn-content">
+                <span class="vitrine-btn">
+                Saiba Mais
+
+                <span class="vitrine-btn-top"></span>
+                <span class="vitrine-btn-right"></span>
+                <span class="vitrine-btn-bottom"></span>
+                <span class="vitrine-btn-left"></span>
+
+                <span class="vitrine-btn-sombra"></span>
+                <span class="vitrine-btn-bg"></span>
+            </span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</a>
+
+            </div>
+
+    <div class="vitrine-nav">
+        <button class="vitrine-nav-btn vitrine-nav-btn-prev js-vitrine-prev">
+            Anterior
+        </button>
+
+        <div class="vitrine-nav-bullet"></div>
+
+        <button class="vitrine-nav-btn vitrine-nav-btn-next js-vitrine-next">
+            Próximo
+        </button>
+    </div>
+</div></div>
+
+<section id="cookies" class="shared-cookies">
+  <div class="wrapper">
+    <div class="shared-cookies__content active">
+      <p class="shared-cookies__text">Nosso site armazena cookies para coletar informações e melhorar sua experiência. <a class="shared-cookies__link js-cookie-open-modal">Gerencie seus cookies</a> ou <a class="shared-cookies__link" 
+      href="https://www.fiap.com.br/privacidade">consulte nossa política</a>. </p>
+
+      <a class="shared-cookies__button js-cookie-button-bar">Prosseguir</a>
+    </div>
+
+    <div class="js-cookie-modal">
+        <h3 class="shared-cookies-modal__title">Configure seus cookies</h3>
+
+        <p class="shared-cookies-modal__text">
+            Pensando em nossos alunos, fazemos o uso de cookies para melhorar a experiência de navegação em nosso site e otimizar constantemente os nossos serviços. Os cookies armazenam temporariamente algumas informações básicas da sua interação com as nossas páginas.
+        </p>
+
+        <h4 class="shared-cookies-modal__title--small">Cookies indispensáveis</h4>
+
+        <p class="shared-cookies-modal__text">
+            Estes cookies não podem ser desativados pois são necessários para que o site funcione corretamente ou para melhorar o desempenho funcionalidades diversas. Eles estão relacionados com a realização de login no Portal do Aluno, o preenchimento de formulários, contagem de visitas para a medição de performance de páginas, entre outros. Todos armazenados sem a possibilidade de identificação pessoal. Ao configurar seu navegador para bloquear esses cookies, algumas partes do site podem não funcionar.
+        </p>
+
+        <div class="shared-cookies-modal__publicidade">
+            <h4 class="shared-cookies-modal__title--small">Cookies de publicidade</h4>
+
+            <div class="shared-cookies-modal__toggle">
+              <p class="shared-cookies-modal__toggle__text">Habilitado</p>
+              <label class="switch">
+                <input type="checkbox" checked class="js-cookie-publicidade">
+                <span class="shared-slider round"></span>
+              </label>
+            </div>            
+        </div>        
+
+        <p class="shared-cookies-modal__text">
+            Estes cookies são estabelecidos por nossos parceiros de publicidade e podem ser usados para compor um perfil sobre seus interesses e, a partir disso, mostrar anúncios relevantes para você em outros sites. As informações armazenadas são baseadas na identificação exclusiva do seu navegador e dispositivo de internet, sem armazenar diretamente informações pessoais. Ao configurar seu navegador para bloquear esses cookies, você terá menos publicidade direcionada.
+        </p>
+
+        <div class="shared-cookies-modal__button">
+          <a class="shared-cookies-modal__button__content" href="">Prosseguir</a>
+        </div>        
+    </div>
+  </div>
+</section>
+
+
+<script>
+    window.APP = window.APP || {}
+
+    APP.URL = 'https://www.fiap.com.br';
+    APP.THEME = 'https://www.fiap.com.br/wp-content/themes/fiap2016';
+
+            APP.PRELOAD = ["https:\/\/www.fiap.com.br\/wp-content\/themes\/fiap2016\/images\/fiap\/vitrines\/lets-rock-the-future.jpg"];
+    </script>
+
+
+
+
+
+
+
+
+
+<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBaqHjIq_L-hpidL5f0yaiUKRNrRaYDHpA&#038;ver=4.9.15'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js?ver=4.9.15'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.0/masonry.pkgd.min.js?ver=4.9.15'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.2/picturefill.min.js?ver=4.9.15'></script>
+<script type='text/javascript' src='https://www.fiap.com.br/wp-content/themes/fiap2016/scripts/fiap/bundle.js?ver=373b299570ac8fda393ceda15354af90'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/lazysizes/2.0.2/lazysizes.min.js?ver=4.9.15'></script>
+
+</body>
+</html>
